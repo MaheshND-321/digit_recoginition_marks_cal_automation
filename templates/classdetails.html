@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classdetails</title>
+<style>    
+* {
+    margin: 0%;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)20%, rgba(0,0,0,0.5)20%), url('/static/image/sunset.jfif');
+    background-position: center;
+    background-size: cover;
+    height: 105vh;
+    }
+
+h1{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 50px;
+    color: red;
+}
+
+.align-right button{
+    width: 130px;
+    height: 40px;
+    background-color: greenyellow;
+    text-align: right;
+    display: flex;
+    float: right;
+    margin: 0px 40px;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+.align-right button:hover{
+    background-color: yellow;
+}
+
+.align-right button a{
+    font-size: 25px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.align-right button a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.card button{
+    width: auto;
+    height: auto;
+    background-color: yellowgreen;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin:2% 35%;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.card button:hover{
+    background-color: yellow;
+}
+
+.card button a{
+    font-size: 35px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="main">
+    <h1>Welcome To Class 5B Section Details</h1>
+    <div class="align-right">
+        <button><a href="/login">LOGOUT</a></button>
+    </div>
+    <div class="card">
+        <button><a href="/add_stud">ADD STUDENTS</a> </button>  
+        <button><a href="/del_stud">REMOVE STUDENTS</a></button>
+        <button><a href="/camera">TAKE ATTENDANCE</a></button> 
+        <button><a href="/all_stud">VIEW ATTENDANCE</a></button>
+        <button><a href="/marks">UPLOAD MARKS</a></button>
+    <div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/register.css')}}">
+<body>
+<div class="main">
+<div class="wrapper">
+<div class="inner">
+<form action="">
+<h1>New Account?</h1>
+<div class="form-holder">
+<span class="lnr lnr-user"></span>
+<input type="text" class="form-control" placeholder="Username" required>
+</div>
+<div class="form-holder">
+<span class="lnr lnr-phone-handset"></span>
+<input type="text" class="form-control" placeholder="Phone Number" required>
+</div>
+<div class="form-holder">
+<span class="lnr lnr-envelope"></span>
+<input type="email" class="form-control" placeholder="Email" required>
+</div>
+<div class="form-holder">
+<span class="lnr lnr-lock"></span>
+<input type="password" class="form-control" placeholder="Password">
+</div>
+<div class="form-holder">
+<span class="lnr lnr-lock"></span>
+<input type="password" class="form-control" placeholder="Confirm Password">
+</div>
+<button>
+<span><a href="/login">Register</a></span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
